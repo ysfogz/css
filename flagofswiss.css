@@ -1,0 +1,41 @@
+/*_____ Universal selector is used ______*/
+* {
+  text-align: center;
+  font-family: "ubuntu", serif;
+}
+body {
+  background: #0e0244;
+}
+/* _____The header is styled _____ */
+h1 {
+  text-shadow: 2px 2px #0ae064;
+}
+/* _____ Overall the flag is styled and perspective function in transform property _____*/
+.flag {
+  transform: perspective(2000px) rotateY(30deg);
+  background-color: #e11a27;
+  margin: auto;
+  height: 1000px;
+  width: 1000px;
+  border-radius: 5px;
+}
+/* _____Since both rectangles are white in color, the rectangles were styled by considering the white class _____*/
+.white {
+  position: absolute;
+  background-color: white;
+  display: block;
+}
+/* _____The size of the first rectangle is calculated _____*/
+.rectangle1 {
+  margin-top: 125px;
+  height: 750px;
+  width: 200px;
+  margin-left: 400px;
+}
+/* _____ The size of the second rectangle is calculated _____*/
+.rectangle2 {
+  width: 750px;
+  height: 200px;
+  margin-left: 125px;
+  margin-top: 400px;
+}
