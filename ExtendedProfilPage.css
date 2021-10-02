@@ -1,0 +1,151 @@
+body {
+  font-family: tahoma;
+  height: 100vh;
+  background-image: url(https://picsum.photos/g/3000/2000);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+#container {
+  background-color: cornflowerblue;
+  width: fit-content;
+}
+#name {
+  text-emphasis: none;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #e7b2b2;
+}
+#profession,
+.fonts {
+  text-emphasis: none;
+  text-transform: none;
+  text-rendering: optimizeSpeed;
+  text-decoration: wavy;
+}
+.content {
+  padding: 5%;
+  margin-bottom: 30px;
+  background-color: #f7f5ec;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.content .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.content .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.content:hover .picture::before {
+  height: 100%;
+}
+
+.content .picture::after {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #1369ce;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.content:hover .picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.buttons > button:nth-child(1) {
+  border: 1px solid #8e24aa;
+  color: #8e24aa;
+  height: 40px;
+}
+
+.buttons > button:nth-child(1):hover {
+  border: 1px solid #8e24aa;
+  color: #fff;
+  height: 40px;
+  background-color: #8e24aa;
+}
+
+.buttons > button:nth-child(2) {
+  border: 1px solid #8e24aa;
+  background-color: #8e24aa;
+  color: #fff;
+  height: 40px;
+}
+#contact:nth-child(2):hover {
+  border: 1px solid #8e24aa;
+  color: #fff;
+  height: 40px;
+  background-color: #dcb8e6;
+}
