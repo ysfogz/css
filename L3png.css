@@ -1,0 +1,49 @@
+#L3 {
+  background: #191210 !important;
+  margin: 0;
+  position: relative;
+  width: 350px;
+}
+#p {
+  width: 60px;
+  height: 30px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: 20px solid #eca03d;
+  border-top: 0;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 0 0 -150px;
+}
+#s {
+  width: 100px;
+  height: 100px;
+  background: repeating-radial-gradient(
+    circle at 50%,
+    #84271c,
+    #84271c 35%,
+    #191210 35%,
+    #191210 100%
+  );
+  border: 20px solid #eca03d;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -70px 0 0 -70px;
+}
+#r {
+  width: 60px;
+  height: 30px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border: 20px solid #eca03d;
+  border-bottom: 0;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 50px;
+}

@@ -1,0 +1,24 @@
+#L2 {
+  padding: 42px 92px;
+  background: #e3516e;
+  width: 200px;
+}
+#d,
+#e,
+#f {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+#d {
+  background: #51b5a9;
+  border-radius: 100px 0 0;
+}
+#e {
+  background: #fade8b;
+  border-radius: 0 100px 0 0;
+}
+#f {
+  background: #f7f3d7;
+  border-radius: 0 0 0 100px;
+}

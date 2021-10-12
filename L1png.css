@@ -1,0 +1,25 @@
+#L1 {
+  margin: 0;
+  padding: 50px;
+  background: #62306d;
+  width: 305px;
+}
+#a,
+#b,
+#c {
+  width: 100px;
+  height: 100px;
+  background: #f7ec7d;
+  display: inline-block;
+}
+#a {
+  margin: 0 100px;
+  border-radius: 50px 50px 0 0;
+}
+#b,
+#c {
+  border-radius: 0 0 50px 50px;
+}
+#c {
+  margin-left: 100px;
+}
