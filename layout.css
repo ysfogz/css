@@ -1,4 +1,53 @@
-main {
+* {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 1px;
+}
+#firstcontainer {
+  flex-direction: column;
+  align-items: center;
+}
+#secondcontainer {
+  align-items: center;
+}
+#the-container-the-lists-are-in {
+  flex-direction: column;
+  align-items: center;
+}
+#apple-phone {
+  flex-direction: column;
+  align-items: center;
+}
+#the-largest-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+#the-largest-container > #inter-twined-triangles {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+#the-largest-container > #small-round {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#square-shaped-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+#square-shaped-container > #inter-twined-triangles2 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+#square-shaped-container > #small-round2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

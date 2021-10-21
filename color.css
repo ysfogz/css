@@ -1,3 +1,78 @@
 main {
-  background-color: bisque;
+  background: #68aaf3;
+}
+#firstcontainer {
+  background-color: white;
+}
+#secondcontainer {
+  background-color: white;
+}
+#the-container-the-lists-are-in {
+  background-color: white;
+}
+#apple-phone {
+  background-color: white;
+}
+#the-largest-container {
+  background-color: white;
+}
+#buton {
+  background-color: white;
+}
+#square-shaped-container {
+  background-color: white;
+}
+#last-container {
+  background-color: white;
+}
+#firstcontainer > #firstline {
+  background-color: #68aaf3;
+}
+#firstcontainer > #secondline {
+  background-color: #68aaf3;
+}
+#firstcontainer > #thirdline {
+  background-color: #68aaf3;
+}
+#secondcontainer > #circlearea {
+  background-color: #68aaf3;
+}
+#the-container-the-lists-are-in {
+  background-color: #68aaf3;
+}
+#the-container-the-lists-are-in > .list {
+  background-color: white;
+}
+#top-line-of-apple-shape {
+  background-color: #68aaf3;
+}
+#apple-phone-screen {
+  background-color: #68aaf3;
+}
+#button-of-apple-phone {
+  background-color: white;
+  border-color: #68aaf3;
+}
+#big-round {
+  background-color: #68aaf3;
+}
+#the-largest-container > #intertwined-triangles > #little-triangle,
+#big-triangele {
+  background-color: white;
+}
+.round {
+  background-color: #68aaf3;
+}
+#big-round2 {
+  background-color: #68aaf3;
+}
+#square-shaped-container > #intertwined-triangles2 > #little-triangle2,
+#big-triangele2 {
+  background-color: white;
+}
+.round2 {
+  background-color: #68aaf3;
+}
+#last-container > #stick {
+  background-color: #68aaf3;
 }

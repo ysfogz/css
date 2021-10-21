@@ -1,0 +1,221 @@
+main {
+  width: 750px;
+  height: 450px;
+  margin: 0px;
+  padding: 0px;
+  margin: 5px;
+}
+#firstcontainer {
+  width: 300px;
+  height: 80px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 5px;
+}
+#secondcontainer {
+  width: 340px;
+  height: 80px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 5px;
+}
+#the-container-the-lists-are-in {
+  width: 70px;
+  height: 100px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 5px;
+}
+#apple-phone {
+  width: 100px;
+  height: 240px;
+  border-radius: 1px;
+  border-radius: 3%;
+  padding: 5px;
+  margin: 5px;
+}
+#the-largest-container {
+  width: 320px;
+  height: 250px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 5px;
+}
+#buton {
+  width: 50px;
+  height: 10px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 5px;
+}
+#square-shaped-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 5px;
+}
+#last-container {
+  width: 720px;
+  height: 50px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 5px;
+}
+#firstcontainer > #firstline {
+  width: 240px;
+  height: 10px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 5px;
+}
+#firstcontainer > #secondline {
+  width: 240px;
+  height: 5px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 0px;
+}
+#firstcontainer > #thirdline {
+  width: 60px;
+  height: 20px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 1px;
+}
+#secondcontainer > #circlearea {
+  width: 30px;
+  height: 30px;
+  border: 1px;
+  border-radius: 50%;
+  padding: 0px;
+  margin: 0px;
+}
+#secondcontainer > #circlearea > #triangulararea {
+  border-color: transparent transparent transparent white;
+  border-style: solid;
+  border-width: 15px 0px 15px 30px;
+  width: 0px;
+  align-items: center;
+}
+#the-container-the-lists-are-in > .list {
+  width: 60px;
+  height: 10px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 3px;
+}
+#top-line-of-apple-shape {
+  width: 50px;
+  height: 2px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 0x;
+}
+#apple-phone-screen {
+  width: 90px;
+  height: 200px;
+  border-radius: 1px;
+  padding: 0px;
+  margin: 0x;
+}
+#apple-phone > #button-of-apple-phone {
+  border: 1px solid #68aaf3;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 10px;
+}
+#big-round {
+  border: 1px solid #68aaf3;
+  height: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  width: 20px;
+}
+#the-largest-container > #intertwined-triangles,
+#little-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px;
+  border-color: transparent transparent #68aaf3 transparent;
+}
+#the-largest-container > #intertwined-triangles,
+#big-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px;
+  border-color: transparent transparent #68aaf3 transparent;
+}
+.round {
+  border: 1px solid #68aaf3;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 10px;
+  margin: 1px;
+}
+#big-round2 {
+  border: 1px solid #68aaf3;
+  height: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  width: 20px;
+}
+#big-round {
+  border: 1px solid #68aaf3;
+  height: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  width: 20px;
+}
+#the-largest-container > #intertwined-triangles,
+#little-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px;
+  border-color: transparent transparent #68aaf3 transparent;
+}
+#the-largest-container > #intertwined-triangles,
+#big-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px;
+  border-color: transparent transparent #68aaf3 transparent;
+}
+.round {
+  border: 1px solid #68aaf3;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 10px;
+  margin: 1px;
+}
+#square-shaped-container > #intertwined-triangles2,
+#little-triangle2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px;
+  border-color: transparent transparent #68aaf3 transparent;
+}
+#square-shaped-container > #intertwined-triangles2,
+#big-triangle2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px;
+  border-color: transparent transparent #68aaf3 transparent;
+}
+.round2 {
+  border: 1px solid #68aaf3;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 10px;
+  margin: 1px;
+}
